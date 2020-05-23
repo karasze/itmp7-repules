@@ -21,6 +21,15 @@ body{
 */
 
 
+.bg-fej {
+background-color: #cccccc;
+}
+.container {
+	width: 800px;
+}
+.class {
+	text-align: left;
+}
 .airplanimg {
     display: inline-block;
     float: left;
@@ -85,4 +94,5 @@ ul {
     border-width: 3px;
     margin: auto;
 }
+
 
