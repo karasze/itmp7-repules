@@ -1,12 +1,3 @@
-body{
-    background-image: linear-gradient(45deg yellow 20% orange);
-    color: #333333;
-    font-family:  arial, cursive;
-    font-weight: bold;
-}
-
-
-
 /*
     Font: arial
     Fekete: #333333
@@ -20,7 +11,14 @@ body{
     Bronz: #ce7402
 */
 
+body{
+    background-image: linear-gradient(45deg yellow 20% orange);
+    color: #333333;
+    font-family:  arial, cursive;
+    font-weight: bold;
+}
 
+<<<<<<< HEAD
 .bg-fej {
 background-color: #cccccc;
 }
@@ -34,9 +32,34 @@ background-color: #cccccc;
     display: inline-block;
     float: left;
     width: 100%;
+=======
+.torzs {
+    width: 80%;
+    border-color: #063711;
+    border-style: solid;
+    border-width: 3px;
+    margin: auto;
 }
 
-.kisbox {
+.helymutato {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.helymutato a{
+    color: #3cb878;
+    padding-left: 20px;
+    text-decoration: underline;    
+}
+
+.imgair a {
+    text-decoration: none;
+>>>>>>> eadc6c769818f2f3b12eb449ffd3249fb76d1694
+}
+
+.kisbox{
     text-align: center;
     border-color: #063711;
     border-style: solid;
@@ -47,8 +70,35 @@ background-color: #cccccc;
     text-decoration: none;
 }
 
-.kisbox h2 {
-    text-decoration: none;
+.kisbox:hover{
+    background: #00ff44;
+    box-shadow: 5px 5px #888888;
+    text-shadow: 2px 2px #ff8888;
+}
+
+.kisbox2 {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    border-color: #063711;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+    background-color: #3cb878;
+    color: white;
+    
+}
+
+.airplanimg {
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+
+.airplanimg2 {
+    display: inline-block;
+    float: left;
+    width: 40%;
 }
 
 h1 {
@@ -56,6 +106,11 @@ h1 {
     border-color: black;
     border-bottom-style: solid;
     border-bottom-width: 2px;
+    background-color:#cdcdcd;
+    text-align: center;
+    padding: 20px;
+    
+
 }
 
 .adat {
@@ -64,19 +119,18 @@ h1 {
 
 .adat p, .nagybox p {
     padding, margin: 0;
-    line-height: 0;
+    line-height: 0.5;
 }
 
 .nagybox .vers{
     text-align: center
 }
 
-ul {
+.fmenu ul{
     list-style-type: none;
+    text-align: center;
 }
-.fmenu{
-    margin: auto;
-}
+
 .fmenu li {
     display: inline-block;
     padding: 10px 40px;
@@ -87,12 +141,5 @@ ul {
     text-decoration: underline;
 }
 
-.torzs {
-    width: 80%;
-    border-color: #063711;
-    border-style: solid;
-    border-width: 3px;
-    margin: auto;
-}
 
 
