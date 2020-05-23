@@ -1,0 +1,12 @@
+
+.torzs {
+    width: 80%;
+    background-color: aqua;
+    margin: auto;
+    padding: 30px;
+    
+}
+.torzs h1, .torzs h2{
+    text-align: center;
+    font-family: cursive;
+}
