@@ -18,21 +18,16 @@ body{
     font-weight: bold;
 }
 
-<<<<<<< HEAD
 .bg-fej {
-background-color: #cccccc;
+    background-color: #cccccc;
 }
-.container {
-	width: 800px;
-}
-.class {
-	text-align: left;
-}
+
 .airplanimg {
     display: inline-block;
     float: left;
     width: 100%;
-=======
+}
+    
 .torzs {
     width: 80%;
     border-color: #063711;
@@ -56,7 +51,6 @@ background-color: #cccccc;
 
 .imgair a {
     text-decoration: none;
->>>>>>> eadc6c769818f2f3b12eb449ffd3249fb76d1694
 }
 
 .kisbox{
