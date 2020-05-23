@@ -24,24 +24,57 @@ body{
 .airplanimg {
     display: inline-block;
     float: left;
-    width: 30%;
+    width: 100%;
 }
 
 .kisbox {
-    border-color: red;
+    text-align: center;
+    border-color: #063711;
     border-style: solid;
-    border-width: 2px;
+    border-width: 3px;
+    border-radius: 20px;
+    background-color: #3cb878;
+    color: white;
 }
 
 h1 {
     font-weight: bold;
+    border-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
 }
 
 .adat {
     float: left;
 }
 
-.adat p {
+.adat p, .nagybox p {
     padding, margin: 0;
     line-height: 0;
+}
+
+.nagybox .vers{
+    text-align: center
+}
+
+ul {
+    list-style-type: none;
+}
+
+.fmenu li {
+    display: inline-block;
+    padding: 10px 40px;
+}
+
+.fmenu a {
+    color: #007335;
+    text-decoration: underline;
+}
+
+.torzs {
+    width: 80%;
+    border-color: #063711;
+    border-style: solid;
+    border-width: 3px;
+    margin: auto;
 }
