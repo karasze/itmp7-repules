@@ -79,8 +79,14 @@ body{
     border-width: 3px;
     border-radius: 20px;
     background-color: #3cb878;
+    color: white; 
+    padding: 10px 50px;
+    margin-top: -10px;
+}
+
+.kisbox2 ul li, .kisbox2 ul li a {
     color: white;
-    
+    text-decoration: underline;
 }
 
 .airplanimg {
