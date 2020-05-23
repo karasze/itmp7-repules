@@ -35,6 +35,11 @@ body{
     border-radius: 20px;
     background-color: #3cb878;
     color: white;
+    text-decoration: none;
+}
+
+.kisbox h2 {
+    text-decoration: none;
 }
 
 h1 {
@@ -60,7 +65,9 @@ h1 {
 ul {
     list-style-type: none;
 }
-
+.fmenu{
+    margin: auto;
+}
 .fmenu li {
     display: inline-block;
     padding: 10px 40px;
@@ -78,3 +85,4 @@ ul {
     border-width: 3px;
     margin: auto;
 }
+
